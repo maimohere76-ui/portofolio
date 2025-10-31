@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مفاجأة عيد الميلاد</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- رابط ملف CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>في مفاجأة مستنياااك !! 🎁<br>ما تفتح الهديه يا جميل!!?</h1>
+        
+        <div class="progress-container" id="progressContainer">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <div class="buttons">
+            <button id="openBtn">افتحها دلوقتي 🎈</button>
+            <button id="noBtn">مش دلوقتي 😅</button>
+        </div>
+        
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope" id="envelope">
+                <div class="envelope-front">
+                    <div class="heart">💌</div>
+                    <p style="color: white; font-size: 18px;">إضغط لفتح الخطاب</p>
+                </div>
+                <div class="envelope-back">
+                    <div class="letter-content" id="letterContent">
+                        <h3 style="color: #d147a3; margin-bottom: 17px;">عيد ميلاد سعيد يا حبيبي! 🎂</h3>
+                        <p>أحم أحم.. قبل أي حاجة بحبك! ❤️</p>
+                        <p>في يومك الخاص ده، عايز أقولك إنك أكتر شخص جميل قابلته في حياتي، وكل يوم معاك بيكون أحلى من اللي فات.</p>
+                        <p>أتمنى لك يوم مليان فرحة وضحك وذكريات حلوة، وعام جديد يكون أجمل سنة في حياتك!</p>
+                        <p style="margin-top: 15px;">كل عام وأنت أغلى حبيب ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="music-control" id="musicControl">
+        <i class="fas fa-music"></i>
+    </div>
+    
+    <div class="celebration" id="celebration">
+        <div class="celebration-content">
+            <h2>عيد ميلاد سعيد! 🎉</h2>
+            <p>بحبك ياكيوبييييييييييييي</p>
+            <button id="closeCelebration">أغلق</button>
+        </div>
+    </div>
+    
+    <audio id="bgMusic" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-happy-day-583.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="celebrationSound">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-happy-crowd-celebration-454.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script> <!-- رابط ملف JS -->
+</body>
+</html>
+
